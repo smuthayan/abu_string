@@ -39,7 +39,7 @@ namespace abu {
 			return true;
 		}
 #pragma endregion
-	// this->capacity - this->length = size of the string;
+	
 #pragma region operator+ overload
 
 		abu_string& operator+(const char_t* const str) {
